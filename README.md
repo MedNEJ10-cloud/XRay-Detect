@@ -22,8 +22,7 @@ The core of this diagnostic tool relies on Transfer Learning utilizing **Incepti
 *   **Callbacks:** We implemented a dynamic learning process using `ReduceLROnPlateau` (halving the learning rate when validation loss stagnates), `EarlyStopping` (patience=7) to halt training if the model stops improving, and `ModelCheckpoint` to guarantee we save only the best iteration of the weights (`X-rays_best_model.h5`).
 
 ## Results & Performance
-The model demonstrates exceptional capability on the unseen test set, achieving an overall global accuracy of **98.33%** (with a loss of just 0.0626)[cite: 1].
-
+The model demonstrates exceptional capability on the unseen test set, achieving an overall global accuracy of **98.33%** (with a loss of just 0.0626).
 Detailed classification report metrics on the test set:
 
 | Class | Precision | Recall | F1-Score | Support |

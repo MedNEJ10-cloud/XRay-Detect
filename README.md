@@ -36,4 +36,4 @@ Detailed classification report metrics on the test set:
 
 
 
-Le système s'appuie sur le modèle de Deep Learning **InceptionV3** en utilisant des techniques de transfer learning et de data augmentation[cite: 2]. Le modèle final, sauvegardé après optimisation du taux d'apprentissage, atteint une précision globale de **98,33%** sur les données de test, démontrant d'excellentes performances (F1-score de 1.00 pour la pneumonie) et prouvant son potentiel en tant qu'outil d'aide au diagnostic radiologique[cite: 1].
+Le système s'appuie sur le modèle de Deep Learning **InceptionV3** en utilisant des techniques de transfer learning et de data augmentation. Le modèle final, sauvegardé après optimisation du taux d'apprentissage, atteint une précision globale de **98,33%** sur les données de test, démontrant d'excellentes performances (F1-score de 1.00 pour la pneumonie) et prouvant son potentiel en tant qu'outil d'aide au diagnostic radiologique.
